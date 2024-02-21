@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily:{
+      primary: 'Roboto',
+      secondary: "Playfair Display"
+    },
     extend: {},
     screen:{
       'xs': '420px',
